@@ -2,20 +2,14 @@
 Risk parity weight calculations and return profiles
 
 Dependencies:
+
 pandas
-
 numpy
-
 matplotlib
-
 seaborn
-
 pylab
-
 tqdm
-
 scipy
-
 sklearn
 
 
