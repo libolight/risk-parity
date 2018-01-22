@@ -15,3 +15,6 @@ Other ETFs profiled are UWTIF (3x long WTI oil), UGLD (3x long gold), and UVXY (
 
 Excel files with daily return histories for each are provided here. 
 
+Dependencies: pandas, numpy, scipy, statsmodels, tqdm, matplotlib, pylab
+
+
