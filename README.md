@@ -1,11 +1,14 @@
 # risk-parity
+
+## Risk parity weights
+
 Risk parity weight calculations and return profiles
 
 Dependencies: pandas, numpy, matplotlib, seaborn, pylab, tqdm, scipy, sklearn
 
 Use provided Excel file ("returns_data.xlsx") or provide your own. The file calculates optimized portfolio weights for risk parity portfolios using the following algorithms: 1) minimum variance, 2) naive risk parity (inverse realized volatility), 3) equal risk contribution or "ERC," 4) inverse beta, 5) max diversification, and 6) Marcos Lopez de Prado's hierarchical risk parity (de Prado's code is used for this algorithm only--all other code mine). 
 
-# UGAZ_short
+## UGAZ_short
 
 'UGAZ_short.ipynb' investigates volatility decay on four leveraged ETFs tracking already volatile underlying commodities. UGAZ is a 3x levered ETF that aims to track each day's percentage change in constant one-month forward natural gas futures. The underlying index has declined 25% annually since inception, and is uncorrelated with other core components of the risk parity portfolio highlighted in 'Risk parity weights.ipynb'. 
 
